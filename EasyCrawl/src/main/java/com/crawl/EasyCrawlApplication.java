@@ -8,6 +8,7 @@ public class EasyCrawlApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(EasyCrawlApplication.class, args);
+        System.out.println("***************start**************");
     }
 
 }

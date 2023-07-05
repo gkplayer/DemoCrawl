@@ -3,8 +3,8 @@ package com.crawl.helper.sql;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.crawl.helper.regex.RegexHelper;
+import com.crawl.helper.validation.Assert;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.util.Assert;
 
 import java.math.BigDecimal;
 import java.util.*;
