@@ -1,4 +1,10 @@
 package com.crawl.service;
 
-public class EasyCrawlService {
+import com.alibaba.fastjson.JSONObject;
+
+import java.util.List;
+
+public interface EasyCrawlService {
+
+    List<JSONObject> getAllCode();
 }

@@ -1,0 +1,5 @@
+xue-qiu:
+    referer: https://xueqiu.com/hq/screener
+    cook-url: https://xueqiu.com/about/contact-us
+    day-of-kline: https://stock.xueqiu.com/v5/stock/chart/kline.json?symbol=${code}&begin=${begin}&period=day&type=before&count=${count}&indicator=kline,pe,pb,ps,pcf,market_capital,agt,ggt,balance
+    min-line: https://stock.xueqiu.com/v5/stock/chart/minute.json?symbol={code}&period=1d
